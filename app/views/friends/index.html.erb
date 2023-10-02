@@ -1,0 +1,24 @@
+<!-- <p style="color: green"><%= notice %></p> -->
+<% if user_signed_in? %>
+<h1>Friends Lists</h1>
+
+<div id="friends">
+
+  <% @friends.each do |friend| %>
+    <%if friend.user == current_user%>
+      <%= render friend %>
+      <p>
+        <%#= link_to "Show this friend", friend %>
+      </p>
+      <br/>
+    <%end%>
+  <% end %>
+</div>
+<%= link_to "New friend", new_friend_path %>
+
+<%else%>
+
+  <h1>Hello World!</h1>
+  <p>This is my first Webpage in Rails</p>
+
+<% end %>

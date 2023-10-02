@@ -1,0 +1,15 @@
+current directory: /home/emmaella/Documents/proruby/friends/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.16.0/ext/bootsnap
+/home/emmaella/.rbenv/versions/3.0.2/bin/ruby -I /home/emmaella/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20230922-19299-a95bun.rb extconf.rb
+creating Makefile
+
+current directory: /home/emmaella/Documents/proruby/friends/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /home/emmaella/Documents/proruby/friends/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/emmaella/Documents/proruby/friends/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20230922-19299-u2mxeu/bootsnap
